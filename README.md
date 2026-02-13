@@ -1,14 +1,31 @@
 # mini-tools
+
 Cert-Validator
-  1. Build with Maven.
 
-        _mvn clean install_
-  2. Run the executable jar file.
+1. Build with Maven.
 
-        _java -jar <path_to_jar_file>/cert-validator-1.0-SNAPSHOT-jar-with-dependencies.jar_
+   _mvn clean install_
 
-  3. Feed the console inputs and observe the logs for the trust chain validation.
+2. Run the executable jar file.
 
-  4. To enable the debug level logs, pass the property '-Dorg.slf4j.simpleLogger.defaultLogLevel=debug' as follows.
+   _java -jar <path_to_jar_file>/cert-validator-1.0-SNAPSHOT-jar-with-dependencies.jar_
 
-        _java -Dorg.slf4j.simpleLogger.defaultLogLevel=debug -jar <path_to_jar_file>/cert-validator-1.0-SNAPSHOT-jar-with-dependencies.jar_
+3. Feed the console inputs and observe the logs for the trust chain validation.
+
+4. To enable the debug level logs, pass the property '-Dorg.slf4j.simpleLogger.defaultLogLevel=debug' as follows.
+
+   _java -Dorg.slf4j.simpleLogger.defaultLogLevel=debug -jar <path_to_jar_file>/cert-validator-1.0-SNAPSHOT-jar-with-dependencies.jar_
+
+Multipart-Backend
+
+1. Build with Maven.
+
+    _mvn clean install_
+
+2. Run the executable jar file.
+
+    _java -jar <path_to_jar_file>/multipart-backend-1.0-SNAPSHOT.jar
+
+3. The server port is 8085, and it is not configurable.
+
+4. JDK 17 
